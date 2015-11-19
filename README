@@ -1,0 +1,36 @@
+Classification Task
+eBay Structured Data Team
+Interview
+Nov 2015
+
+#-------------
+# Introduction
+#-------------
+
+There are millions of new listings on eBay everyday and an automatic approach to classify them into correct categories is crucial for the user experience. Here you have an oppertunity to get a flavor of the work. 
+
+Your task is to build a classifier to classify listings from Clothing Shoes and Accessories (CSA) category and Jewelry category (JWL). You are provided with 5000 listing titles that we sampled from CSA and another 35000 from JWL as well as their condition and price. You are expected to build a classifier with those data so that given a listing title the classifier is able to predict whether it is a CSA or JWL. You are requried to submit the code as well as a report to detail your method and evaluation. Any further analysis and discussion on the data and the results are more than welcome and would definitely help to differentiate you from other candidates.  
+
+#------------
+# Data files
+#------------
+
+CSA5k.txt : 5000 eBay listing titles from Clothing Shoes and Accessories category (CSA)
+JWL35k.txt : 35000 eBay listing titles from Jewelry category (JWL)
+header.txt : The column names of the data files above.
+The header of the file is
+ItemID ItemTitle ItemCondition ItemPrice
+
+ItemID is the unique identifier of an eBay listing.
+ItemTitle is the listing title.
+ItemCondition is the condition of the item, the values are [new, used , refurb, broken, unknown].
+ItemPrice is the price of the item in cents.
+
+The missing field in the data file will be marked with -1. 
+
+#------------
+# Submission
+#------------
+
+Your code. Feel free to use any language and library that you feel comfortable with.
+A document that describes your method and evaluations.
